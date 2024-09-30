@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 1a</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/jquery-3.7.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/bai1a.css">
+    <script src="../js/bai1a.js"></script>
+    
+</head>
+<body>
+    <div class="container">
+        <div id="khung1">
+            <div class="row">
+                <h1>Đăng ký tài khoản</h1>
+            </div>
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col-3">Tên đăng nhập:</div>
+                <div class="col-6">
+                    <input type="text" class="form-control">
+                </div>
+                <div class="col-2"></div>
+            </div>
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col-3">Mật khẩu:</div>
+                <div class="col-6">
+                    <input type="password" class="form-control">
+                </div>
+                <div class="col-2"></div>
+            </div>
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col-3">Nhập lại mật khẩu:</div>
+                <div class="col-6">
+                    <form action="/action_page.php" class="was-validated">
+                        <div class="row">
+                            <input type="password" class="form-control" required>
+                            <div class="valid-feedback"><h5 id="lg2">Looks good!</h5></div>
+                            <div class="invalid-feedback"><h5 id="pls2">Please provide a valid Last name.</h5></div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-2"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
